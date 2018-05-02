@@ -1,5 +1,13 @@
 """
 Encoder and decoder functions for A&L programming challenge.
+ENCODER:
+Input int must be in 14 bit range
+Must shift off most sig. bit
+Must convert to 16 bit hex
+
+DECODER:
+Reverse 16 bit hex to original int
+Must take two inputs, 1 byte each
 """
 
 import unittest
